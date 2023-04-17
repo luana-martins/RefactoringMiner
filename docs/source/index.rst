@@ -14,8 +14,7 @@ Learn how to configure and run the TestRefactoringMiner.
    * :doc:`Requirements </requirements>` 
    * :doc:`Downloading and running </downloading-and-running>` 
    * :doc:`Other usages </usage>`
-   * :doc:`Features </features>` 
-   * :doc:`Links </links>`
+   * :doc:`Features </features>`
 
 .. toctree::
    :maxdepth: 2
@@ -26,7 +25,6 @@ Learn how to configure and run the TestRefactoringMiner.
    /downloading-and-running
    /usage
    /features
-   /links
 
 About TestRefactoringMiner
 ------------------------------
