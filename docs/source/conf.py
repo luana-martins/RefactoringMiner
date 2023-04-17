@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+
 project = 'TestsRefactoringMiner'
 copyright = '2023, Luana Martins'
 author = 'Luana Martins'
@@ -13,7 +16,11 @@ author = 'Luana Martins'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+  'sphinx.ext.autosectionlabel',
+  'sphinx.ext.autodoc',
+  'sphinx.ext.intersphinx',
+]
 
 templates_path = ['_templates']
 
@@ -33,3 +40,4 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+     
