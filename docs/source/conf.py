@@ -16,8 +16,16 @@ author = 'Luana Martins'
 extensions = ["myst_parser"]
 
 templates_path = ['_templates']
+
+
+source_suffix = ['.rst']
+master_doc = 'index'
+language = 'en'
+
 exclude_patterns = []
 
+pygments_style = 'sphinx'
+html_theme = 'sphinx_rtd_theme'
 
 
 # -- Options for HTML output -------------------------------------------------
